@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .register-background {
+            background-image: url("../resimler/dalle.webp");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .register-form {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <title>Dental Practice Register</title>
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><img width="60px" src="../resimler/toothLogo-removebg-preview.png" alt=""></li>
+            <li><strong>I-DENTIST</strong></li>
+        </ul>
+        <ul>
+            <!-- <li><a href="#">Home</a></li>
+            <li><a href="#">Hakkımızda</a></li> -->
+            <!-- <li><a href="#" role="button">Giriş</a></li> -->
+        </ul>
+    </nav>
+    <div class="register-background">
+        <div class="register-form">
+            <h2 align="center">Kayıt Ol</h2>
+            <h3 align="center">Lütfen bilgilerinizi girin</h3>
+            <form action="#" method="post">
+                <input type="text" id="fullname" name="fullname" placeholder="Ad Soyad" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="username" name="username" placeholder="Kullanıcı Adı" required>
+                <input type="password" id="password" name="password" placeholder="Parola" required>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Parolayı Onaylayın" required>
+                <button type="submit">Kaydol</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
