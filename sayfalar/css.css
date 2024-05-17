@@ -13,19 +13,15 @@ body {
 }
 
 .sidebar {
-    background: #9E9E9E;
+    background: #0e0e35;
+    color: white;
+    min-height: 100vh;
 }
 
 .navbar {
     padding: 0.5rem 1rem;
 }
 
-.navbar-brand,
-.nav-link,
-.sidebar {
-    color: #000000;
-
-}
 
 .border-custom {
     margin: 6px;
@@ -33,27 +29,24 @@ body {
     background-color: #ffffff;
     /* border: 1px solid #000000; */
     padding: 5px 10px;
-    transition: background-color .3s;
+    transition: background-color 3s;
 }
 
 .border-custom:hover,
 .menu-link:hover {
     background-color: #000000;
-    color: #ffffff;
+    color: #cecece;
 }
 
-.sidebar {
-    min-height: 100vh;
-}
 
 .sidebar-sticky {
     position: sticky;
-    top: 56px;
+    top: 3%;
 }
 
 .menu-link {
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #171f57;
     transition: background-color .3s;
     border-radius: 25px;
 }
@@ -146,7 +139,7 @@ body {
     font-weight: bold;
 
     position: absolute;
-    
+
     top: 0;
 
     right: 0;
@@ -168,3 +161,29 @@ body {
 /* !!!!!!!!!!!!!!!!!
         modal-end
 !!!!!!!!!!!!!!!!!!!!*/
+
+
+/*LOGO-start*/
+.LOGO-nav {
+    position: relative;
+    /* text-align: center; */
+    left: 9%;
+}
+
+.LOGO {
+    position: relative;
+    width: 23%;
+
+}
+
+.LOGO-Title {
+    position: relative;
+    font-size: large;
+
+}
+.LOGO-Title:hover{
+    color: #171f57  ;
+    transition: 3s;
+}
+
+/*LOGO-end*/
