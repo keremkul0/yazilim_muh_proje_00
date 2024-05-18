@@ -8,8 +8,8 @@ function addMainTemplateToDom(){
     <div class=" d-md-block sidebar border-menu">
         <div class="position-sticky sidebar-sticky">
             <nav class="LOGO-nav">
-                <a href=""><img src="../../resimler/toothLogo-removebg-preview.png" class="LOGO"></a>
-                <a class="navbar-brand LOGO-Title" href="#">I-DENTIST</a>
+                <a href="/sayfalar/anasayfa_00.html"><img src="../../resimler/toothLogo-removebg-preview.png" class="LOGO"></a>
+                <a class="navbar-brand LOGO-Title" href="/sayfalar/anasayfa_00.html">I-DENTIST</a>
             </nav>
             <!-- <h4 class="px-3 pt-3" align=center>Menü</h4> -->
             <hr>

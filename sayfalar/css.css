@@ -182,8 +182,18 @@ body {
 
 }
 .LOGO-Title:hover{
-    color: #171f57  ;
-    transition: 3s;
+    color: #00ff00  ;
+    transition: 10s;
 }
 
 /*LOGO-end*/
+
+
+
+/**/
+.teeth-map{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+/**/
