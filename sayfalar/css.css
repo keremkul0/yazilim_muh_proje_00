@@ -197,3 +197,20 @@ body {
     height: auto;
 }
 /**/
+#svg2{
+    position: relative;
+    left: 35%;
+    background-color:#171e57;
+    width: 500px;
+    height: auto;
+
+}
+.tooth{
+    fill: white;
+    /* fill: red; */
+}
+.tooth:hover{
+    fill: rgba(228, 234, 177, 0.984);
+    /* transition: 5s; */
+    
+}
