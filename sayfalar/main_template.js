@@ -26,6 +26,10 @@ function addMainTemplateToDom(){
                     <a class="nav-link menu-link"
                         href="/sayfalar/Gecmis_Randevular/Gecmis-Randevular.html">Geçmiş</a>
                 </li>
+                <li class="nav-item mb-2" align="center">
+                <a class="nav-link menu-link"
+                    href="/sayfalar/Hesabim/Hesabim.html">Hesabim</a>
+                </li>
             </ul>
         </div>
     </div>  
