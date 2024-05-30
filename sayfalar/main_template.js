@@ -7,7 +7,7 @@ function addMainTemplateToDom() {
         <div class="position-sticky sidebar-sticky">
             <nav class="LOGO-nav">
                 <a href="/sayfalar/anasayfa_00.html"><img src="../../resimler/toothLogo-removebg-preview.png" class="LOGO"></a>
-                <a class="navbar-brand LOGO-Title" href="/sayfalar/anasayfa_00.html">I-DENTIST</a>
+                <a class="navbar-brand LOGO-Title" href="/sayfalar/Ana_Sayfa/anasayfa_00.html">I-DENTIST</a>
             </nav>
             <hr>
             <br>

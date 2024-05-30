@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background: url('path/to/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.about img {
+    border-radius: 8px;
+}
+
+.services img {
+    border-radius: 8px;
+}
+
+.contact .form-control {
+    border-radius: 0;
+}
+
+.contact button {
+    border-radius: 0;
+}
+
+footer {
+    background-color: #343a40;
+}
